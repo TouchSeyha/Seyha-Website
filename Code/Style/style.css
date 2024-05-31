@@ -23,6 +23,7 @@ nav {
 
 #nameLogo {
     margin: 0;
+    font-size: 30px;
 }
 
 .navigation-items {
@@ -42,9 +43,41 @@ nav {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 2rem auto;
     padding: 0 2rem;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.text-container{
+    flex: 1;
+    max-width: 50%;
+}
+
+#myPic{
+    max-width: 600px;
+    border-radius: 20%;
+    max-height: 600px;
+    border-color:rgb(19, 24, 43);
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+section{
+    margin-bottom: 0;
+}
+section h2{
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.project {
+    margin-bottom: 1.5rem;
 }
 
 footer {
@@ -52,7 +85,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: absolute;
+    position:fixed;
     bottom: 0;
     width: 100%;
 }
